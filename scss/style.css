@@ -7,4 +7,94 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-color: #19a2ae;
+}
+
+body .container {
+  display: block;
+  width: 90%;
+  overflow-x: hidden;
+  background-color: white;
+  border-radius: 30px;
+}
+
+body .container .top-section {
+  margin-bottom: -30px;
+}
+
+body .container .top-section .photo {
+  border-radius: 50%;
+  position: relative;
+  top: -55px;
+  left: 36%;
+}
+
+body .container .bottom-section {
+  text-align: center;
+}
+
+body .container .bottom-section .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body .container .bottom-section .info .name {
+  margin-right: 15px;
+  color: #2d3248;
+  font-size: 23px;
+}
+
+body .container .bottom-section .info .age {
+  color: #969696;
+}
+
+body .container .bottom-section .country {
+  color: #969696;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+body .container .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #f2f2f2;
+  padding: 30px;
+}
+
+body .container .stats .stat-details .stat-number {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+body .container .stats .stat-details .stat-type {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
 /*# sourceMappingURL=style.css.map */
