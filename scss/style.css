@@ -97,4 +97,35 @@ body .container .stats .stat-details .stat-type {
   font-size: 12px;
   letter-spacing: 3px;
 }
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-size: contain;
+  }
+  body .container {
+    width: 23%;
+  }
+  body .container .top-section .pattern {
+    width: 100%;
+  }
+  body .container .top-section .photo {
+    left: 36%;
+    height: 105px;
+  }
+  body .container .bottom-section .info .name {
+    font-size: 20px;
+  }
+  body .container .bottom-section .info .age {
+    font-size: 20px;
+  }
+  body .container .bottom-section .country {
+    font-size: 15px;
+  }
+  body .container .bottom-section .stats .stat-details .stat-number {
+    font-size: 20px;
+  }
+  body .container .bottom-section .stats .stat-details .stat-type {
+    font-size: 8px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -75,3 +75,54 @@ body {
         }
     }
 }
+
+@media only screen and (min-width: $desktop) {
+    body {
+        background-size: contain;
+
+        .container {
+            width: 23%;
+
+            .top-section {
+                .pattern {
+                    width: 100%;
+                }
+    
+                .photo {
+                    left: 36%;
+                    height: 105px;
+                }
+            }
+
+            .bottom-section {
+                .info .name {
+                    font-size: 20px;
+                }
+
+                .info .age {
+                    font-size: 20px;
+                }
+
+                .country {
+                    font-size: 15px;
+                }
+
+                .stats .stat-details .stat-number {
+                    font-size: 20px;
+                }
+
+                .stats .stat-details .stat-type {
+                    font-size: 8px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
